@@ -1,0 +1,23 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: build active folder (all .c)",
+            "command": "powershell",
+            "args": [
+                "-NoProfile",
+                "-Command",
+                "Set-Location \"${fileDirname}\"; & \"C:/MinGW/bin/gcc.exe\" -fdiagnostics-color=always -g *.c -o \"${fileBasenameNoExtension}.exe\""
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compila todos os .c da pasta atual para suportar exemplos com multiplos arquivos."
+        }
+    ],
+    "version": "2.0.0"
+}

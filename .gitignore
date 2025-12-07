@@ -1,0 +1,24 @@
+# Binarios e objetos
+*.exe
+*.o
+*.obj
+*.dll
+*.lib
+*.a
+*.pdb
+*.ilk
+
+# Pastas de build/debug comuns
+build/
+Debug/
+Release/
+out/
+
+# Arquivos temporarios/diagnostico
+*.log
+*.tmp
+
+# VS Code
+.vscode/ipch
+.vscode/*.db
+.vscode/*.log
