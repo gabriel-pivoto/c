@@ -17,4 +17,3 @@ Repositorio com exemplos curtos de C separados por topico para consulta rapida. 
 - **No VS Code**: abra o `main.c` do exemplo, aperte `F5` ou rode a task `C/C++: build active folder (all .c)`. A task compila todos os `.c` da pasta atual para lidar com exemplos que tem mais de um arquivo.
 - **Linha de comando**: dentro da pasta do exemplo, rode `gcc -g *.c -o main.exe` (MinGW) e depois `./main.exe`.
 
-Os `.exe` antigos na raiz foram deixados como estavam; os binarios novos ficam em cada pasta apos compilar.
